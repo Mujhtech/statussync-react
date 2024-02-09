@@ -18,7 +18,7 @@ export type StatussyncStatusData = {
 export const getServiceData = async (slug: string) => {
   const req = await fetch(`https://statussync.dev/api/v1/${slug}/status`, {
     method: "GET",
-    headers: {},
+    cache: "no-cache",
   });
 
   if (req.ok) {
