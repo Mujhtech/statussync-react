@@ -10,7 +10,7 @@
     "strictNullChecks": true,
 
     "jsx": "react-jsx",
-    "lib": ["ES2015", "DOM"],
+    "lib": ["ES2021", "DOM"],
     "module": "ESNext",
     "target": "es6",
     "esModuleInterop": true,

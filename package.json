@@ -1,7 +1,7 @@
 {
   "name": "@statussync/react",
   "version": "0.0.1",
-  "description": "",
+  "description": "Statussync React Widget",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.mjs",
@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.6",
     "@types/react": "^18.2.46",
     "tailwindcss": "^3.4.0",
