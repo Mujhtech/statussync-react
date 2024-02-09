@@ -21,6 +21,16 @@ export function Page() {
 }
 ```
 
+For NextJS server component
+
+```jsx
+import { StatussyncRscWidget } from "@statussync.dev/react";
+
+export function Page() {
+  return <StatussyncRscWidget slug="paystack" />;
+}
+```
+
 Import css styles in to your app
 
 ```js

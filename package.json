@@ -1,6 +1,6 @@
 {
   "name": "@statussync.dev/react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Statussync.dev React Widget",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -23,7 +23,12 @@
     "statussync",
     "status",
     "widget",
-    "react"
+    "react",
+    "uptime",
+    "monitor",
+    "ping",
+    "health",
+    "health check"
   ],
   "license": "MIT",
   "devDependencies": {

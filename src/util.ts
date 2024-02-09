@@ -28,19 +28,3 @@ export const getServiceStatusColor = (status: string, style?: string) => {
 
   return statusFillColor;
 };
-
-export const getServiceStatusBasedOnIncident = (uptime: number) => {
-  if (uptime == 0) {
-    return "FULLY OPERATIONAL";
-  }
-
-  if (uptime >= 1 && uptime < 3) {
-    return "PARTLY OUTAGE";
-  }
-
-  if (uptime > 3) {
-    return "MAJOR OUTAGE";
-  }
-
-  return "DEGRADED PERFORMANCE";
-};
