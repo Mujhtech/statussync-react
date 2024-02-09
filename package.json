@@ -1,7 +1,7 @@
 {
-  "name": "@statussync/react",
-  "version": "0.0.1",
-  "description": "Statussync React Widget",
+  "name": "@statussync.dev/react",
+  "version": "0.0.2",
+  "description": "Statussync.dev React Widget",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.mjs",
