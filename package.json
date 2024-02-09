@@ -12,11 +12,18 @@
     "dev": "tsup --watch && pnpm run dev:tailwind",
     "dev:tailwind": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
     "build:tailwind": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
-    "build": "tsup && pnpm run build:tailwind"
+    "build": "tsup && pnpm run build:tailwind",
+    "changeset:add": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:release": "pnpm run build && changeset publish",
+    "changeset:beta": "changeset pre enter beta",
+    "changeset:normal": "changeset pre exit"
   },
   "keywords": [
     "statussync",
-    "status"
+    "status",
+    "widget",
+    "react"
   ],
   "author": "",
   "license": "ISC",
