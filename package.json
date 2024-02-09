@@ -25,10 +25,6 @@
     "widget",
     "react"
   ],
-  "author": {
-    "name": "Muhideen Mujeeb Adeoye",
-    "email": "mujeeb.muhideen@gmail.com"
-  },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
