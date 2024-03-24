@@ -99,13 +99,14 @@ function ServicePingWidget({
     service.status.replaceAll(" ", "_")
   );
 
-  let refUrl = "https://statussync.dev?ref=" + slug;
+  let refUrl = "https://statussync.dev/s/" + slug;
 
   return (
     <a href={refUrl} target="_blank">
       <span className="flex items-center gap-1">
         <button
           data-state="closed"
+          aria-label="Statussync Service Status"
           className="z-50 transition-colors duration-100 hover:cursor-pointer text-slate-500 hover:text-slate-300"
         >
           <span className="relative flex h-3 w-3">
